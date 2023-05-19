@@ -1,3 +1,33 @@
 .App {
   text-align: center;
+  width: 100%;
+  min-height: 100vh;
+}
+
+.container {
+  max-width: 1440px;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin: 0 auto;
+  min-height: 100vh;
+}
+
+.app-body {
+  display: flex;
+  width: 100%;
+  padding-top: 50px;
+}
+
+#light {
+  background-color: white;
+}
+
+#dark {
+  background-color: #1f1e1e;
+}
+
+@media (max-width: 360px) {
+  .app-body {
+    padding-top: 25px;
+  }
 }
